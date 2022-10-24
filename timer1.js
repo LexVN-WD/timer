@@ -1,10 +1,15 @@
 // GOALS
 
 /* 
-(1):create function that can take command line inputs and beep according to time intervals
-(2): 
-
+(1): create function that can take command line inputs and beep according to time intervals
+(2): can intake multiple values (ie: 1, 2, 3, 4)
+(3): should not beep if no number is provided
+(4): should not beep if number is a negative
+(5): should not beep if input is not a number
 */
+
+/* ------------------------------------------------------------------------------------------------ */
+
 let nodeTimes = process.argv.slice(2);
 /* takes and stores command line argument into new array
 starting at command line index 2 (after vm and file location).
